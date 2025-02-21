@@ -4,9 +4,7 @@ import json
 
 app = FastAPI()
 
-# db = firestore.Client.from_service_account_json('serviceAccountKey.json')
-db = firestore.Client.from_service_account_json(r"C:\Users\cynth\Downloads\backend-service-with-fastapi-and-firestore-main\serviceAccountKey.json")
-
+db = firestore.Client.from_service_account_json('serviceAccountKey.json')
 
 @app.get("/")
 async def root():
