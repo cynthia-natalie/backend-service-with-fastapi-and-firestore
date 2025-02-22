@@ -15,3 +15,7 @@ uvicorn app.app:app --reload
 
 fetch cities:
 curl -X GET "http://127.0.0.1:8000/cities" -H "accept: application/json"
+```
+## Video Demo
+
+Video Demo Link: https://drive.google.com/file/d/1rNjYudlV6WX_RIrY_v7KVEXGMT1bKtQg/view?usp=drive_link
